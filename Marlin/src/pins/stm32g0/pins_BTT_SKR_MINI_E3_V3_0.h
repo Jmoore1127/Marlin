@@ -54,7 +54,7 @@
 //
 #define X_STOP_PIN                          PC0   // X-STOP
 #define Y_STOP_PIN                          PC1   // Y-STOP
-#define Z_STOP_PIN                          PC2   // Z-STOP
+#define Z_STOP_PIN                          PC14   // Z-STOP
 
 //
 // Z Probe must be this pin
@@ -170,7 +170,7 @@
    * All pins are labeled as printed on DWIN PCB. Connect TX-TX, A-A and so on.
    */
 
-  #error "DWIN_CREALITY_LCD requires a custom cable, see diagram above this line. Comment out this line to continue."
+  //#error "DWIN_CREALITY_LCD requires a custom cable, see diagram above this line. Comment out this line to continue."
 
   #define BEEPER_PIN                 EXP1_09_PIN
   #define BTN_EN1                    EXP1_03_PIN
